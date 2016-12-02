@@ -1,4 +1,4 @@
-package com.example.shivamarora.android_ocr_simple;
+package com.example.shivamarora.android_ocr_simple.Camera;
 
 import android.content.Context;
 import android.graphics.Canvas;

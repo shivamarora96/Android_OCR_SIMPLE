@@ -3,6 +3,7 @@ package com.example.shivamarora.android_ocr_simple;
 import android.util.Log;
 import android.util.SparseArray;
 
+import com.example.shivamarora.android_ocr_simple.Camera.GraphicOverlay;
 import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.text.TextBlock;
 
@@ -24,6 +25,7 @@ public class DynamicCameraDetector implements Detector.Processor<TextBlock> {
     @Override
     public void receiveDetections(Detector.Detections<TextBlock> detections) {
         SparseArray<TextBlock> textBlockSparseArray =   detections.getDetectedItems() ;
+
 
         for(int i = 0 ;  i <textBlockSparseArray.size() ; i++){
             if(textBlockSparseArray.valueAt(i)!=null && textBlockSparseArray.valueAt(i).getValue()!=null){

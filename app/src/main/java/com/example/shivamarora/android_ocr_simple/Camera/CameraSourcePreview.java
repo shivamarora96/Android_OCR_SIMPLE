@@ -1,4 +1,4 @@
-package com.example.shivamarora.android_ocr_simple;
+package com.example.shivamarora.android_ocr_simple.Camera;
 
 
 
@@ -13,7 +13,7 @@ import android.view.SurfaceView;
 import android.view.ViewGroup;
 
 import com.google.android.gms.common.images.Size;
-import com.google.android.gms.vision.CameraSource;
+//import com.google.android.gms.vision.CameraSource;
 
 import java.io.IOException;
 

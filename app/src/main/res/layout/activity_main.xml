@@ -9,17 +9,17 @@
     tools:context="com.example.shivamarora.android_ocr_simple.MainActivity">
 
 
-<com.example.shivamarora.android_ocr_simple.CameraSourcePreview
+<com.example.shivamarora.android_ocr_simple.Camera.CameraSourcePreview
     android:id="@+id/CameraSourcePreview"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<com.example.shivamarora.android_ocr_simple.GraphicOverlay
+<com.example.shivamarora.android_ocr_simple.Camera.GraphicOverlay
     android:id="@+id/Graphicoverlay"
     android:layout_width="match_parent"
     android:layout_height="match_parent" />
 
-</com.example.shivamarora.android_ocr_simple.CameraSourcePreview>
+</com.example.shivamarora.android_ocr_simple.Camera.CameraSourcePreview>
 
 
 

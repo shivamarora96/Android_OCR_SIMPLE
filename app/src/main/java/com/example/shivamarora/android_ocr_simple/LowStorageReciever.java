@@ -12,6 +12,6 @@ public class LowStorageReciever extends BroadcastReceiver {
         if(intent.getAction() == Intent.ACTION_DEVICE_STORAGE_LOW){
             MainActivity.mHasLowStorage = true;
             Toast.makeText(context , "Device has Low Storage" , Toast.LENGTH_LONG).show();
-        }
+                    }
     }
 }
